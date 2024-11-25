@@ -1,0 +1,13 @@
+title: Quincy Ryan
+description: Personal website
+theme: minima
+
+# Site structure
+header_pages:
+  - about.md
+  - research.md
+  - music.md
+  - hobbies.md
+  - cv.md
+
+
