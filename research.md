@@ -4,11 +4,13 @@ title: Research
 permalink: /research/
 ---
 
-{% include research-interests.html %}
+# Research interests 
+- Attention, executive function, emotion and social cognition. 
+- Computational modeling, Theory of computation, Artificial Intelligence, and ethics of technology.
+- Neurobiology and evolutionary neurobiology. Primate and human evolution. 
+- Psychology of music, Anthropology of religion/shamanism, philosophy of mind, and consciousness. 
 
-## Current Participation
-### Neurotech PM
-[Details here]
+# Ongoing work
 
 ### Janata Lab
 [Details here]
@@ -16,7 +18,3 @@ permalink: /research/
 ## Personal Work
 ### EF Paper
 [Paper details]
-
-## Pedagogy
-[Teaching philosophy and experience]
-
