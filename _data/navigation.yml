@@ -7,3 +7,5 @@ main:
     url: /research/
   - title: "Music"
     url: /music/
+  - title: "Other Hobbies"
+    url: /hobbies/
