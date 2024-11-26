@@ -1,9 +1,11 @@
 ---
 layout: home
-title: Home
+author_profile: true
 ---
 
 # Bio
-Hi, my name is Quincy Ryan
+Hello, my name is Quincy Ryan.
+
 I am an undergraduate at UC Davis studying Cognitive Science (computation)
 
+More content soon!

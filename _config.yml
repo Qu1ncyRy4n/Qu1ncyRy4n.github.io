@@ -1,13 +1,27 @@
 title: Quincy Ryan
-description: Personal website
-theme: minima
+email: qmryan@ucdavis.edu
+description: "Personal academic website"
+github_username: Qu1ncyRy4n
 
-# Site structure
-header_pages:
-  - about.md
-  - research.md
-  - music.md
-  - hobbies.md
-  - cv.md
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dark" 
 
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-include-cache
 
+include: ["_pages"]
+
+author:
+  name: "Quincy Ryan"
+  bio: ""
+  location: "Davis, CA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Qu1ncyRy4n"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:qmryan@ucdavis.edu"
