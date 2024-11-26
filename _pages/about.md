@@ -10,9 +10,14 @@ My name is Quincy Ryan. I am undergraduate transfer student studying cognitive s
 
 # CV
 
-<iframe src="{{ site.baseurl }}/assets/pdfs/Curriculum Vitae.pdf" width="100%" height="500px">
-    <p>Your browser doesn't support iframes. You can <a href="{{ site.baseurl }}/assets/pdfs//Users/q/Documents/GitHub/Qu1ncyRy4n.github.io/assets/pdfs/Curriculum Vitae.pdf">download the PDF here</a> instead.</p>
+<iframe src="{{ site.baseurl }}/assets/pdfs/qr_cv.pdf" width="100%" height="500px">
+    <p>Your browser doesn't support iframes. You can <a href="{{ site.baseurl }}/assets/pdfs//Users/q/Documents/GitHub/Qu1ncyRy4n.github.io/assets/pdfs/qr_cv.pdf">download the PDF here</a> instead.</p>
 </iframe>
 
 
 # Resume
+<iframe src="{{ site.baseurl }}/assets/pdfs/qr_resume.pdf" width="100%" height="500px">
+    <p>Your browser doesn't support iframes. You can <a href="{{ site.baseurl }}/assets/pdfs//Users/q/Documents/GitHub/Qu1ncyRy4n.github.io/assets/pdfs/qr_resume.pdf">download the PDF here</a> instead.</p>
+</iframe>
+
+
