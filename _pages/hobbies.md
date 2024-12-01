@@ -20,3 +20,6 @@ TODO
 ## Values / Roles 
 TODO
 
+## Dyslexia / Attention Deficit Assistive technology  
+TODO
+
