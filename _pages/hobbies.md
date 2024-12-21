@@ -8,6 +8,12 @@ permalink: /hobbies/
 ## Social Media / Web Abstinence
 TODO 
 
+## Learning strategies (TODO)
+### Obsidian
+### Zettlecasten
+### Zotero integration
+### Spaced repeition integration. 
+
 ## Nix / Nix-Darwin
 TODO
 
@@ -15,11 +21,10 @@ TODO
 TODO
 
 ## Writing
-TODO 
+TODO
 
 ## Values / Roles 
 TODO
 
-## Dyslexia / Attention Deficit Assistive technology  
+## Dyslexia / Attention Deficit Assistive technology
 TODO
-
