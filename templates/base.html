@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
   <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+  <script>try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch {}</script>
 </head>
 <body>
   <header>
@@ -16,6 +17,7 @@
       {% for item in config.extra.nav %}
       <a href="{{ get_url(path=item.path) }}"{% if current_path == item.path %} aria-current="page"{% endif %}>{{ item.name }}</a>
       {% endfor %}
+      <button class="theme" type="button" aria-label="Toggle light and dark mode">◐</button>
     </nav>
   </header>
   <main>
@@ -27,5 +29,15 @@
     <a href="{{ get_url(path='pdfs/quincyryan_cv.pdf') }}">cv</a> ·
     <a href="{{ get_url(path='pdfs/quincyryan_resume.pdf') }}">resume</a>
   </footer>
+  <script>
+    document.querySelector(".theme").addEventListener("click", () => {
+      const root = document.documentElement;
+      const dark = root.dataset.theme
+        ? root.dataset.theme === "dark"
+        : !matchMedia("(prefers-color-scheme: light)").matches;
+      root.dataset.theme = dark ? "light" : "dark";
+      try { localStorage.setItem("theme", root.dataset.theme); } catch {}
+    });
+  </script>
 </body>
 </html>
