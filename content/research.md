@@ -12,17 +12,28 @@ title = "Research"
 ## Labs
 
 ### Cognitive Control Lab — Dr. Xiaomo Chen
-Video-based eye-tracking and neurophysiology paradigms for non-human primates;
-mixed-effects modeling (Bambi/PyMC) of meaning-map viewing.
+*Research Assistant · UC Davis Center for Neuroscience · Oct 2025–present*
+
+- Programmed and deployed a video-based eye-tracking and neurophysiology paradigm for non-human primates.
+- Modeling eye-tracking data from meaning-map tasks with linear mixed-effects models (Bambi/PyMC).
 
 ### Cognition in Context Lab — Dr. Yuko Munakata
-PsychoPy and EYNA eye-tracking experiments with adults and children.
+*Research Assistant · UC Davis Center for Mind and Brain · Jan 2025–present*
 
-### Janata Lab — Dr. Petr Janata
-Sole developer on Brainmuse: integrating models of music cognition (C++, Python, JACK).
+- Design and implement cognitive and behavioral experiments in PsychoPy with EYNA eye tracking.
+- Run experiments with adults and children; analyze behavioral and eye-tracking data in R and Python.
 
 ### Computational Cognitive Neuroscience — Dr. Randall O'Reilly
-UX work on the textbook's [simulations](https://compcogneuro.org/simulations), in Go with Cogent Core.
+*Programmer · CompCogNeuro / Cogent Core · Jan 2025–Sept 2025*
+
+- Improved the UX of the textbook's [simulations](https://compcogneuro.org/simulations).
+- Programmed in Go with the Cogent Core framework.
+
+### Janata Lab — Dr. Petr Janata
+*Research Assistant · UC Davis Center for Mind and Brain · Aug 2024–Apr 2025*
+
+- Sole software developer on the Brainmuse project.
+- Integrated, refactored, and extended multiple models of music cognition (C++, Bash, Python, JACK).
 
 ## Presentations
 
