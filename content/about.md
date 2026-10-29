@@ -9,8 +9,8 @@ collaborative, intellectually rigorous, and in service of others.
 
 ## CV
 
-{{ <pdf path="pdfs/qr_cv.pdf" title="cv" /> }}
+{{ <pdf path="pdfs/quincyryan_cv.pdf" title="cv" /> }}
 
 ## Resume
 
-{{ <pdf path="pdfs/qr_resume.pdf" title="resume" /> }}
+{{ <pdf path="pdfs/quincyryan_resume.pdf" title="resume" /> }}

@@ -12,4 +12,4 @@ research tooling, accessibility tech, and agent infrastructure.
 - **Background** — B.S. Cognitive Science (computational) with minors in Neuroscience and Music, UC Davis; before that, music at CalArts.
 
 See [research](@/research.md), [projects](@/projects.md), or grab my
-[cv](/pdfs/qr_cv.pdf) and [resume](/pdfs/qr_resume.pdf).
+[cv](/pdfs/quincyryan_cv.pdf) and [resume](/pdfs/quincyryan_resume.pdf).
