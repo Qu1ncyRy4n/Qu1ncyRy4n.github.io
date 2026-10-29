@@ -11,5 +11,5 @@ research tooling, accessibility tech, and agent infrastructure.
 - **Software** — software developer at CD International: Nix infrastructure, DevOps, and agent tooling ([Mogent](https://github.com/Qu1ncyRy4n/Agents)).
 - **Background** — B.S. Cognitive Science (computational) with minors in Neuroscience and Music, UC Davis; before that, music at CalArts.
 
-See [research](@/research.md), or grab my
+See [research](@/research.md), [projects](@/projects.md), or grab my
 [cv](/pdfs/qr_cv.pdf) and [resume](/pdfs/qr_resume.pdf).

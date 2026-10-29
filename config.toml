@@ -14,6 +14,7 @@ email = "quincymryan@gmail.com"
 nav = [
   { name = "about", path = "/about/" },
   { name = "research", path = "/research/" },
+  { name = "projects", path = "/projects/" },
   { name = "music", path = "/music/" },
   { name = "hobbies", path = "/hobbies/" },
 ]
