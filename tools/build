@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+command -v zola >/dev/null || { echo "zola missing: run through 'nix develop -c tools/build'" >&2; exit 1; }
+exec zola build
