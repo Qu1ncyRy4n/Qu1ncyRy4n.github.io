@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <meta name="description" content="{{ config.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+</head>
+<body>
+  <header>
+    <a class="name" href="{{ config.base_url }}/">quincy ryan</a>
+    <nav>
+      {% for item in config.extra.nav %}
+      <a href="{{ get_url(path=item.path) }}"{% if current_path == item.path %} aria-current="page"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer>
+    <a href="{{ config.extra.github }}">github</a> ·
+    <a href="mailto:{{ config.extra.email }}">email</a> ·
+    <a href="{{ get_url(path='pdfs/qr_cv.pdf') }}">cv</a> ·
+    <a href="{{ get_url(path='pdfs/qr_resume.pdf') }}">resume</a>
+  </footer>
+</body>
+</html>

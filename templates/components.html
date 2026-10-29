@@ -1,0 +1,14 @@
+{% component pdf(path: string, title: string = "pdf") %}
+<figure class="pdf">
+  <iframe src="{{ get_url(path=path) }}" title="{{ title }}" loading="lazy"></iframe>
+  <figcaption><a href="{{ get_url(path=path) }}">open {{ title }} ↗</a></figcaption>
+</figure>
+{% endcomponent pdf %}
+
+{% component soundcloud(track: string, title: string) %}
+<figure class="embed">
+  <iframe height="166" loading="lazy" allow="autoplay" title="{{ title }}"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ track }}&color=%239bc53d&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+  <figcaption>{{ title }}</figcaption>
+</figure>
+{% endcomponent soundcloud %}

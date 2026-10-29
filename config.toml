@@ -1,0 +1,19 @@
+base_url = "https://qu1ncyry4n.github.io"
+title = "Quincy Ryan"
+description = "Cognitive science, computational neuroscience, and software."
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+
+[markdown]
+smart_punctuation = true
+
+[extra]
+github = "https://github.com/Qu1ncyRy4n"
+email = "quincymryan@gmail.com"
+nav = [
+  { name = "about", path = "/about/" },
+  { name = "research", path = "/research/" },
+  { name = "music", path = "/music/" },
+  { name = "hobbies", path = "/hobbies/" },
+]
