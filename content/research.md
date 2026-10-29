@@ -39,11 +39,3 @@ title = "Research"
 
 **Recurrent Neural Networks: Learning Rule Derivations** — NPB 287A, Theoretical
 Neuroscience Seminar (graduate), Fall 2025.
-
-## Writing
-
-### Executive function literature review
-Written for UWP 104E (Scientific Writing): an introduction to executive
-function for young adults, and what the evidence says about improving it.
-
-{{ <pdf path="pdfs/EFEnhanYoungAdults.pdf" title="paper" /> }}
