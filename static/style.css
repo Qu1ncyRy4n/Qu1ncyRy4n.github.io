@@ -1,0 +1,97 @@
+/* Forest green, from nix-config's ghostty "green" theme. */
+:root {
+  --bg: #1a2f1f;
+  --bg-raised: #213a27;
+  --fg: #c8d4aa;
+  --heading: #e8f5d1;
+  --muted: #8fa88f;
+  --rule: #3d5c43;
+  --accent: #9bc53d;
+  --link: #b8e856;
+  --hover: #e89d3a;
+  --select: #7ba428;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f5ffeb;
+    --bg-raised: #e8f5d1;
+    --fg: #1a2f1f;
+    --heading: #1a2f1f;
+    --muted: #5a7a62;
+    --rule: #c8d4aa;
+    --accent: #3d5c43;
+    --link: #4f7a12;
+    --hover: #c17817;
+    --select: #c8e58f;
+    color-scheme: light;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  max-width: 44rem;
+  padding: 2.5rem 1rem 4rem;
+  background: var(--bg);
+  color: var(--fg);
+  font: 1.2rem/1.6 "EB Garamond", Georgia, serif;
+}
+
+::selection { background: var(--select); color: var(--bg); }
+
+header, footer, nav, h1, h2, h3, figcaption, code {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .5rem 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--rule);
+}
+header .name { color: var(--accent); font-weight: 600; text-decoration: none; }
+header .name::before { content: "~/"; color: var(--muted); }
+nav { display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: .85rem; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a[aria-current="page"] { color: var(--accent); }
+nav a[aria-current="page"]::before { content: "> "; }
+
+h1, h2, h3 { color: var(--heading); line-height: 1.25; font-weight: 600; }
+h1 { font-size: 1.5rem; margin-top: 0; }
+h2 { font-size: 1.1rem; margin-top: 2.5rem; }
+h2::before { content: "## "; color: var(--accent); }
+h3 { font-size: .95rem; margin-top: 1.75rem; }
+
+a { color: var(--link); text-decoration-color: var(--rule); text-underline-offset: .2em; }
+a:hover { color: var(--hover); text-decoration-color: currentColor; }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+ul { padding-left: 1.25rem; }
+li::marker { color: var(--accent); }
+code { font-size: .85em; background: var(--bg-raised); padding: .1em .3em; border-radius: 3px; }
+
+figure { margin: 1.5rem 0; }
+figure iframe { display: block; width: 100%; border: 1px solid var(--rule); border-radius: 4px; background: var(--bg-raised); }
+figure.pdf iframe { height: 32rem; }
+figure.video iframe { aspect-ratio: 16 / 9; height: auto; }
+figcaption { font-size: .8rem; color: var(--muted); margin-top: .4rem; }
+
+.card { padding: 1rem 1.25rem; margin: 1rem 0; background: var(--bg-raised); border-left: 3px solid var(--accent); border-radius: 0 4px 4px 0; }
+.card h3 { margin-top: 0; }
+.card p:last-child { margin-bottom: 0; }
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: .8rem;
+  color: var(--muted);
+}
+footer a { color: var(--muted); }
