@@ -18,10 +18,10 @@ title = "Research"
 - Modeling eye-tracking data from meaning-map tasks with linear mixed-effects models (Bambi/PyMC).
 
 ### Cognition in Context Lab — Dr. Yuko Munakata
-*Research Assistant · UC Davis Center for Mind and Brain · Jan 2025–present*
+*Research Assistant · UC Davis Center for Mind and Brain · Jan 2025–May 2026*
 
-- Design and implement cognitive and behavioral experiments in PsychoPy with EYNA eye tracking.
-- Run experiments with adults and children; analyze behavioral and eye-tracking data in R and Python.
+- Designed and implemented cognitive and behavioral experiments in PsychoPy with EYNA eye tracking.
+- Ran experiments with adults and children; analyzed behavioral and eye-tracking data in R and Python.
 
 ### Computational Cognitive Neuroscience — Dr. Randall O'Reilly
 *Programmer · CompCogNeuro / Cogent Core · Jan 2025–Sept 2025*
