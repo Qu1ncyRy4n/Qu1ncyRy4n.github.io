@@ -2,7 +2,7 @@
 title = "Contact"
 +++
 
-Questions, collaborations, or just saying hi. Messages go straight to my inbox.
+Feel free to reach out!
 
 <form class="contact" action="https://api.web3forms.com/submit" method="POST">
   <!-- Web3Forms public access key: safe to publish, only allows sending to my inbox. -->
