@@ -13,9 +13,8 @@
   color-scheme: dark;
 }
 
-/* Light follows the system unless the toggle picked a theme (data-theme on <html>). */
 @media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
+  :root {
     --bg: #f5ffeb;
     --bg-raised: #e8f5d1;
     --fg: #1a2f1f;
@@ -28,20 +27,6 @@
     --select: #c8e58f;
     color-scheme: light;
   }
-}
-
-:root[data-theme="light"] {
-  --bg: #f5ffeb;
-  --bg-raised: #e8f5d1;
-  --fg: #1a2f1f;
-  --heading: #1a2f1f;
-  --muted: #5a7a62;
-  --rule: #c8d4aa;
-  --accent: #3d5c43;
-  --link: #4f7a12;
-  --hover: #c17817;
-  --select: #c8e58f;
-  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
@@ -77,8 +62,6 @@ nav { display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: .85rem; }
 nav a { color: var(--muted); text-decoration: none; }
 nav a[aria-current="page"] { color: var(--accent); }
 nav a[aria-current="page"]::before { content: "> "; }
-.theme { font: inherit; color: var(--muted); background: none; border: 0; padding: 0; cursor: pointer; }
-.theme:hover { color: var(--hover); }
 
 h1, h2, h3 { color: var(--heading); line-height: 1.25; font-weight: 600; }
 h1 { font-size: 1.5rem; margin-top: 0; }
